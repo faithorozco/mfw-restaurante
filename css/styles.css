@@ -56,13 +56,13 @@ nav.navbar{
 }
 
 .main_img1{
-    background-image:url('../img/wood-2.jpg')
+    background-image:url('../img/wood-2.jpg');
 }
 .main_img2{
     background-image:url("../img/restaurant-2.jpg");
 }
 .main_img3{
-    background-image:url('../img/farm-2.jpg')
+    background-image:url('../img/farm-2.jpg');
 }
 .btn-primary{
     color:#fff;
@@ -112,11 +112,16 @@ nav.navbar{
     z-index: -1;
     position: absolute;
     color:rgba(149,147,147,0.2);
-    
+    display: flex;
+    flex:center;
 }
+
+    
+    
+
 /* REVIEW SECTION */
 #review{
-    background-image: url(../img/food_review.jpg);
+    background-image: url('../img/food_review.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
