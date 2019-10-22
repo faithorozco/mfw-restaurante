@@ -143,3 +143,92 @@ nav.navbar{
     font-weight: 300;
     font-size:2em;
 }
+/* MENU */
+#menu{
+background-color: black;
+font-family: 'lobster', sans-serif;
+
+}
+
+#menu h3{
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#menu p{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.food{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding:20px 0; */
+
+
+}
+#menu .nav li a:hover{
+    background-color: rgba(252,255,255,0.1);
+    border-color:transparent;
+
+
+}
+#menu .nav-justified li a{
+    margin-bottom: -5px;
+}
+#menu .nav-tabs li a{
+    border:none;
+}
+#menu a{
+color:#f8512f;
+font-family: 'raleway', sans-serif;
+font-weight:700;
+text-transform: uppercase;
+
+}
+/* CONTACT SECTION */
+.contact_form{
+    background-color: #ff6633;
+    color: white;
+    border:1px solid;
+}
+.contact_form form{
+    padding:5% 0;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+}
+.contact_form span{
+    color:#ff0d06;
+}
+#contact{
+background-color: #f8512f;
+
+}
+#contact h1{
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    color:white;
+    font-size: 4em;
+}
+#contact p{
+    font-family: 'raleway', sans-serif;
+    font-weight: 300;
+    color:#fff;
+    font-size:1em;
+
+}
+#contact_fine_print{
+    font-size:12px !important;
+    text-align: center;
+}
+#address{
+    color:white;
+    font-family: 'raleway', sans-serif;
+    font-weight: 300;
+}
+.contact_bottom{
+    margin-bottom:25px;
+    margin-top:50px;
+}
